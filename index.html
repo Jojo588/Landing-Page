@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TechFlow - Modern Solutions for Tomorrow</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+<body>
+    <!-- Loading Screen -->
+    <div class="loading-screen" id="loadingScreen">
+        <div class="loader"></div>
+    </div>
+
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <a href="#home" class="logo">TechFlow</a>
+            <ul class="nav-menu" id="navMenu">
+                <li><a href="#home" class="nav-link active">Home</a></li>
+                <li><a href="#features" class="nav-link">Features</a></li>
+                <li><a href="#about" class="nav-link">About</a></li>
+                <li><a href="#pricing" class="nav-link">Pricing</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+            <button class="mobile-menu-toggle" id="mobileMenuToggle">
+                <i class="fas fa-bars"></i>
+            </button>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <div class="hero-content">
+            <h1>Modern Solutions for Tomorrow's Challenges</h1>
+            <p>Empowering businesses with cutting-edge technology and innovative solutions that drive growth and success in the digital age.</p>
+            <a href="#features" class="cta-button">Get Started Today</a>
+        </div>
+        <div class="scroll-indicator">
+            <i class="fas fa-chevron-down"></i>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section class="section features" id="features">
+        <div class="container">
+            <div class="section-title">
+                <h2>Why Choose TechFlow?</h2>
+                <p>Discover the powerful features that make us the preferred choice for modern businesses</p>
+            </div>
+            <div class="features-grid">
+                <div class="feature-card reveal">
+                    <div class="feature-icon">
+                        <i class="fas fa-rocket"></i>
+                    </div>
+                    <h3>Lightning Fast</h3>
+                    <p>Experience blazing-fast performance with our optimized infrastructure and cutting-edge technology stack.</p>
+                </div>
+                <div class="feature-card reveal">
+                    <div class="feature-icon">
+                        <i class="fas fa-shield-alt"></i>
+                    </div>
+                    <h3>Secure & Reliable</h3>
+                    <p>Your data is protected with enterprise-grade security measures and 99.9% uptime guarantee.</p>
+                </div>
+                <div class="feature-card reveal">
+                    <div class="feature-icon">
+                        <i class="fas fa-cogs"></i>
+                    </div>
+                    <h3>Easy Integration</h3>
+                    <p>Seamlessly integrate with your existing tools and workflows with our comprehensive API and plugins.</p>
+                </div>
+                <div class="feature-card reveal">
+                    <div class="feature-icon">
+                        <i class="fas fa-users"></i>
+                    </div>
+                    <h3>24/7 Support</h3>
+                    <p>Get help whenever you need it with our dedicated support team available around the clock.</p>
+                </div>
+                <div class="feature-card reveal">
+                    <div class="feature-icon">
+                        <i class="fas fa-chart-line"></i>
+                    </div>
+                    <h3>Analytics & Insights</h3>
+                    <p>Make data-driven decisions with powerful analytics and real-time insights into your business.</p>
+                </div>
+                <div class="feature-card reveal">
+                    <div class="feature-icon">
+                        <i class="fas fa-mobile-alt"></i>
+                    </div>
+                    <h3>Mobile Optimized</h3>
+                    <p>Access your dashboard and manage your business from anywhere with our mobile-optimized platform.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Parallax Section -->
+    <section class="parallax" id="about">
+        <div class="parallax-content">
+            <h2>Trusted by 10,000+ Companies Worldwide</h2>
+            <p>Join the growing community of businesses that have transformed their operations with TechFlow's innovative solutions.</p>
+        </div>
+    </section>
+
+    <!-- Stats Section -->
+    <section class="section stats">
+        <div class="container">
+            <div class="stats-grid">
+                <div class="stat-item reveal">
+                    <span class="stat-number" data-target="10000">0</span>
+                    <div class="stat-label">Happy Customers</div>
+                </div>
+                <div class="stat-item reveal">
+                    <span class="stat-number" data-target="50">0</span>
+                    <div class="stat-label">Countries Served</div>
+                </div>
+                <div class="stat-item reveal">
+                    <span class="stat-number" data-target="99.9">0</span>
+                    <div class="stat-label">Uptime Guarantee</div>
+                </div>
+                <div class="stat-item reveal">
+                    <span class="stat-number" data-target="24">0</span>
+                    <div class="stat-label">Hours Support</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Pricing Section -->
+    <section class="section" id="pricing">
+        <div class="container">
+            <div class="section-title">
+                <h2>Choose Your Plan</h2>
+                <p>Select the perfect plan that fits your business needs and budget</p>
+            </div>
+            <div class="pricing-grid">
+                <div class="pricing-card reveal">
+                    <h3>Starter</h3>
+                    <div class="price">$29<span>/month</span></div>
+                    <ul class="features-list">
+                        <li><i class="fas fa-check"></i> Up to 5 Projects</li>
+                        <li><i class="fas fa-check"></i> 10GB Storage</li>
+                        <li><i class="fas fa-check"></i> Email Support</li>
+                        <li><i class="fas fa-check"></i> Basic Analytics</li>
+                    </ul>
+                    <a href="#contact" class="cta-button">Get Started</a>
+                </div>
+                <div class="pricing-card featured reveal">
+                    <h3>Professional</h3>
+                    <div class="price">$79<span>/month</span></div>
+                    <ul class="features-list">
+                        <li><i class="fas fa-check"></i> Unlimited Projects</li>
+                        <li><i class="fas fa-check"></i> 100GB Storage</li>
+                        <li><i class="fas fa-check"></i> Priority Support</li>
+                        <li><i class="fas fa-check"></i> Advanced Analytics</li>
+                        <li><i class="fas fa-check"></i> API Access</li>
+                    </ul>
+                    <a href="#contact" class="cta-button">Get Started</a>
+                </div>
+                <div class="pricing-card reveal">
+                    <h3>Enterprise</h3>
+                    <div class="price">$199<span>/month</span></div>
+                    <ul class="features-list">
+                        <li><i class="fas fa-check"></i> Everything in Pro</li>
+                        <li><i class="fas fa-check"></i> Unlimited Storage</li>
+                        <li><i class="fas fa-check"></i> 24/7 Phone Support</li>
+                        <li><i class="fas fa-check"></i> Custom Integrations</li>
+                        <li><i class="fas fa-check"></i> Dedicated Manager</li>
+                    </ul>
+                    <a href="#contact" class="cta-button">Contact Sales</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="section contact" id="contact">
+        <div class="container">
+            <div class="section-title">
+                <h2>Get In Touch</h2>
+                <p>Ready to transform your business? Let's start the conversation today</p>
+            </div>
+            <div class="contact-content">
+                <div class="contact-form">
+                    <form id="contactForm">
+                        <div class="form-group">
+                            <label for="name">Full Name</label>
+                            <input type="text" id="name" name="name" required>
+                            <div class="error-message"></div>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email Address</label>
+                            <input type="email" id="email" name="email" required>
+                            <div class="error-message"></div>
+                        </div>
+                        <div class="form-group">
+                            <label for="company">Company (Optional)</label>
+                            <input type="text" id="company" name="company">
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Message</label>
+                            <textarea id="message" name="message" rows="5" required></textarea>
+                            <div class="error-message"></div>
+                        </div>
+                        <button type="submit" class="submit-btn">Send Message</button>
+                    </form>
+                </div>
+                <div class="contact-info">
+                    <h3>Let's Talk</h3>
+                    <p>Have questions about our services? We're here to help you find the perfect solution for your business needs.</p>
+                    <div class="contact-item">
+                        <i class="fas fa-phone"></i>
+                        <div>
+                            <strong>Phone</strong><br>
+                            +1 (555) 123-4567
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-envelope"></i>
+                        <div>
+                            <strong>Email</strong><br>
+                            hello@techflow.com
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <div>
+                            <strong>Address</strong><br>
+                            123 Tech Street, Silicon Valley, CA 94000
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>TechFlow</h3>
+                    <p>Empowering businesses with innovative technology solutions that drive growth and success in the digital age.</p>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                    </div>
+                </div>
+                <div class="footer-section">
+                    <h3>Services</h3>
+                    <p><a href="#">Web Development</a></p>
+                    <p><a href="#">Mobile Apps</a></p>
+                    <p><a href="#">Cloud Solutions</a></p>
+                    <p><a href="#">Consulting</a></p>
+                </div>
+                <div class="footer-section">
+                    <h3>Company</h3>
+                    <p><a href="#">About Us</a></p>
+                    <p><a href="#">Careers</a></p>
+                    <p><a href="#">Blog</a></p>
+                    <p><a href="#">Press</a></p>
+                </div>
+                <div class="footer-section">
+                    <h3>Support</h3>
+                    <p><a href="#">Help Center</a></p>
+                    <p><a href="#">Documentation</a></p>
+                    <p><a href="#">API Reference</a></p>
+                    <p><a href="#">Contact Support</a></p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 TechFlow. All rights reserved. | <a href="#">Privacy Policy</a> | <a href="#">Terms of Service</a></p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Back to Top Button -->
+    <button class="back-to-top" id="backToTop">
+        <i class="fas fa-chevron-up"></i>
+    </button>
+
+    <script src="script.js">   
+    </script>
+</body>
+</html>
